@@ -41,8 +41,6 @@ inline auto wrapAlleAusgeben(DAO* d) -> void { d->gibAlleAus(); }
 string exitString = "exit";
 
 int main() {
-	cout << "Relentless++\nLicensed under GNU GPLv3 - 04/12/2017 \n\nDiese Anwendung wurde im Rahmen des "
-		"Abschlussprojekts fuer Alfatraining von Florian Thurm erstellt.\n" << endl;
 	DAO *dao{ new DAO };
 	string *cmd{ new string };
 	do {
